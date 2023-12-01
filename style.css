@@ -1,0 +1,273 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.main-container{
+    width: 100%;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+}
+.navbar{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-image: url('./image/OIP\ \(7\).jpg') ;
+    background-size: cover; 
+    background-position: center;  
+    font-size: 30px;
+}
+.text{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+}
+.text h1{
+    font-size: 30px;
+    margin-left: 50px;
+}
+.box-part{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+.box1{
+    width: 65%;
+    height: auto;
+    background-image: url('./image/OIP\ \(6\).jpg');
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+.left{
+    width: 70%;
+    height: auto;
+}
+.left img{
+    width: 120px;
+}
+.left h2{
+    font-size: 22px;
+    margin-top: 20px;
+}
+.left span{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+.box2{
+    width: 120px;
+    height: 120px;
+    background-image: url('./image/sky2.jpg');
+    border-radius: 10px;
+    color: rgb(236, 244, 246);
+    margin-top: 20px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+.box2 p{
+    font-size: 16px;
+}
+#hyd{
+    width: 420px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#hyd h2{
+    font-size: 20px;
+}
+#hyd img{
+    width: 15%;
+    margin-top: 20px;
+}
+
+
+.right{
+    width: 20%;
+}
+.right img{
+    width: 150px;
+    margin-top: 40px;
+}
+.right p{
+    margin-top: 5px;
+}
+
+
+.box3{
+    width: 20%;
+    height: 48vh;
+    background-image: url('./image/OIP\ \(6\).jpg');
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.box3 img{
+    width: 100px;
+}
+.box3 h2{
+    font-size: 20px;
+}
+.box3 span{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.box3 span img{
+    width: 65px;
+}
+
+
+.image-part{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+}
+.image-part h1{
+    font-size: 30px;
+    margin-left: 50px;
+}
+.image-part span{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+.box4{
+    width: 250px;
+    height: 250px;
+    background-image: url('./image/OIP (2).jpg');
+    border-radius: 25px;
+    background-position: center;
+    background-size: cover;
+}
+.box5{
+    width: 250px;
+    height: 250px;
+    background-image: url('./image/OIP (3).jpg');
+    border-radius: 25px;
+    background-position: center;
+    background-size: cover;
+}
+.box6{
+    width: 250px;
+    height: 250px;
+    background-image: url('./image/OIP (4).jpg');
+    border-radius: 25px;
+    background-position: center;
+    background-size: cover;
+}
+.box7{
+    width: 250px;
+    height: 250px;
+    background-image: url('./image/OIP (5).jpg');
+    border-radius: 25px;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+@media(max-width:768px){
+    .container{
+        width: 100%;
+        height: auto;
+    }
+    .navbar{
+        width: 100%;
+        height: 100px;
+    }
+    .text{
+        width: 100%;
+        height: auto;
+    }
+    .text h1{
+        font-size: 25px;
+    }
+    .box-part{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .box1{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+    .box1 .left{
+        width: 100%;
+    }
+    .left h2{
+        font-size: 18px;
+    }
+    #hyd{
+        width: 420px;
+    }
+    #hyd h2{
+        font-size: 20px;
+    }
+    .left span{
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin: 0%;
+        padding: 0%;
+    }
+    .box1 .right{
+        width: 100%;
+        text-align: start;
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+    }
+    .box2{
+        margin: 2px;
+    }
+    .box3{
+        width: 300px;
+        height: 350px;
+        margin-top: 20px
+    }
+
+    .image-part{
+        width: 100%;
+        height: auto;
+    }
+    .image-part h1{
+        font-size: 25px;
+    }
+    .image-part span{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .box4, .box5, .box6, .box7{
+        margin: 20px;
+    }
+
+}
